@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/be">
+
+    <!--<ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="195dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/a"/>-->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:id="@+id/viewGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/b"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="新闻天下"/>
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/c"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="员工管理"/>
+
+            <!--<ImageView
+                android:id="@+id/img4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/d"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="二手市场"/>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/e"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="家政服务"/>
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/f"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="社区商店"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/g"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="房屋销售"/>
+
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/h"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="优惠折扣"/>
+
+            <!--<ImageView
+                android:id="@+id/img9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/s"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="娱乐休闲"/>-->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

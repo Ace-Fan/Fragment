@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tguanyu"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="此软件包括有首页，新闻，我的，设置四大功能，每一个功能都有不同的实现"/>
+</LinearLayout>
